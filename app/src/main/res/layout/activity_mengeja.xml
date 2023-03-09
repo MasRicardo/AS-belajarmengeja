@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.belajarmengeja.Mengeja"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink_bg" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Belajar Membaca Kalimat"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="nama"
+        android:text="Nama saya Lala" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Adik Bermain Bola"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="adik"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Ibu memasak Nasi"
+        android:layout_marginLeft="40dp"
+        android:onClick="ibu"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="-220dp"
+        android:onClick="ayah"
+        android:text="Ayah Bekerja" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="-8dp"
+        android:onClick="riang"
+        android:text="Riang Gembira" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Lala Bahagia"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="-5dp"
+        android:onClick="lala"/>
+
+
+</LinearLayout>
